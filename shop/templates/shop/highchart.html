@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <div id="container"></div>
+  <script src="https://code.highcharts.com/highcharts.src.js"></script>
+  <script>
+    Highcharts.chart('container', {
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'General Statistics of our Served Clients'
+        },
+        xAxis: {
+            categories: ['2014', '2015', '2016', '2017', '2018']
+        },
+        series: [{
+            name: 'Food ',
+            data: [50, 75, 101, 177, 346]
+        }, {
+            name: 'House',
+            data: [42, 66, 128, 190, 248]
+        }, {
+            name: 'Electronics',
+            data: [40, 67, 156, 236, 324]
+        }]
+    });
+  </script>
+</body>
+</html>
