@@ -112,7 +112,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Afica/Nairobi'
 
 USE_I18N = True
 
@@ -145,7 +145,7 @@ if 'DATABASE_URL' in os.environ:
     import dj_database_url
     DATABASES = {'default': dj_database_url.config()}
 
-admin.site.site_header = '1XPredict  Admin Panel'
-admin.site.site_title = '1XPredict Admin Panel'
+admin.site.site_header = 'Talla Global  Admin Panel'
+admin.site.site_title = 'Talla Global Admin Panel'
 
 ADMINS = (('Denis Kiprono', 'deniskiprono4@gmail.com'),)
