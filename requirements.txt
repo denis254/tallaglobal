@@ -15,7 +15,7 @@ django-appconf==1.0.2
 django-reflinks==0.5.0
 django-registration==2.4.1
 django-tinymce==2.7.0
-djangorestframework==3.7.7
+djangorestframework==3.11.2
 entrypoints==0.2.3
 ez-setup==0.9
 gunicorn==19.7.1
