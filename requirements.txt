@@ -13,7 +13,7 @@ dj-database-url==0.5.0
 Django==2.0.3
 django-appconf==1.0.2
 django-reflinks==0.5.0
-django-registration==2.4.1
+django-registration==3.1.2
 django-tinymce==2.7.0
 djangorestframework==3.7.7
 entrypoints==0.2.3
